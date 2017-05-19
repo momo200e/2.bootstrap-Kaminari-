@@ -15,3 +15,18 @@ bundle update
 
 ```
 
+#### Step3.加入SCSS'
+```css
+# application.scss 
+@import "bootstrap-sprockets";
+@import "bootstrap";
+```
+```js
+# application.js
+//= require_tree .
+//= require bootstrap-sprockets
+```
+詳細請看此篇教學[一些好用的Gem#Bootstrap](https://github.com/momo200e/Ruby_Rails_Notes/blob/master/Gem_Notes.md#bootstrap) 
+
+```
+
