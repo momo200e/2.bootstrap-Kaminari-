@@ -1,0 +1,2 @@
+class Namecard < ApplicationRecord
+end
