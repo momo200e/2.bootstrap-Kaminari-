@@ -46,7 +46,7 @@ gem 'kaminari'
 #### Step.1 在controllers/namecards_controller.rb 中，修改index的方法
  ```ruby
 def index
-  @namecards = Namecards.page(params[:page]).per(3)
+  @namecards = Namecard.page(params[:page]).per(3)
 end
  ```
 #### Step.2 在views/namecards/index.html.erb，畫面中加入分頁
