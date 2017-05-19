@@ -5,3 +5,13 @@
 ```rb
 rails g scaffold namecard name tel address company
 ```
+
+#### Step2.加入gem 'bootstrap-sass'
+```rb
+gem 'bootstrap-sass', '~> 3.3.4'
+bundle update
+```
+詳細請看此篇教學[一些好用的Gem#Bootstrap](https://github.com/momo200e/Ruby_Rails_Notes/blob/master/Gem_Notes.md#bootstrap) 
+
+```
+
