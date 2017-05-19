@@ -1,7 +1,7 @@
 # 利用bootstrap和Kaminari美化網頁 #Ruby on Rails
 **小筆記，練習使用套件**
 
-#### Step1.首先，先建立一個scaffold 
+#### Step1.首先，先建立一個namecard 
 ```rb
 rails g scaffold namecard name tel address company
 ```
@@ -11,11 +11,10 @@ rails g scaffold namecard name tel address company
 gem 'bootstrap-sass', '~> 3.3.4'
 bundle update
 ```
-詳細請看此篇教學[一些好用的Gem#Bootstrap](https://github.com/momo200e/Ruby_Rails_Notes/blob/master/Gem_Notes.md#bootstrap) 
+詳細請看此篇教學[好用的Gem#Bootstrap](https://github.com/momo200e/Ruby_Rails_Notes/blob/master/Gem_Notes.md#bootstrap) 
 
-```
 
-#### Step3.加入SCSS'
+#### Step3.加入SCSS、js
 ```css
 # application.scss 
 @import "bootstrap-sprockets";
@@ -26,7 +25,3 @@ bundle update
 //= require_tree .
 //= require bootstrap-sprockets
 ```
-詳細請看此篇教學[一些好用的Gem#Bootstrap](https://github.com/momo200e/Ruby_Rails_Notes/blob/master/Gem_Notes.md#bootstrap) 
-
-```
-
